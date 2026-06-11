@@ -4,7 +4,7 @@
 // app shell (so it still LOADS instantly when offline, even though MQTT
 // obviously won't connect until network is back).
 const CACHE = 'wf0600-remote-v1';
-const ASSETS = ['./washer_remote.html', './manifest.json', './icon.svg'];
+const ASSETS = ['./index.html', './manifest.json', './icon.svg'];
 
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(ASSETS)));
