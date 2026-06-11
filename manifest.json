@@ -1,0 +1,16 @@
+{
+  "name": "تحكم الغسالة WF0600",
+  "short_name": "الغسالة",
+  "description": "تحكم عن بعد بغسالة Samsung WF0600NCS عبر MQTT",
+  "start_url": "./washer_remote.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#14171C",
+  "theme_color": "#14171C",
+  "lang": "ar",
+  "dir": "rtl",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
